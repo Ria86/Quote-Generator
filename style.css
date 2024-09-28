@@ -1,0 +1,38 @@
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+   font-family: 'Inter', sans-serif;
+  text-decoration: none;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+div {
+  color: gray;
+  text-align: center;
+}
+
+img {
+  padding: 15px;
+}
+
+button {
+  background-color:cornflowerblue;
+  padding: 5x;
+  border:none;
+  border-radius: 0.5rem;;
+  
+}
+
+button:hover {
+  transform: scale(1.5);
+  z-index: 102;
+  transition: 0.5s;
+}
